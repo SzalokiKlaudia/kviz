@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvíz</title>   
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <main>
+        <header>
+           
+        </header>
+        <div id="kontener">
+            <div id="kvizKontener">
+                <!-- h3 kérdések -->
+                <h3 id="kerdes"></h3>
+                <div class="opciok">
+
+                    <div class="opcio">
+                        <button id="opcio1" class="opciogomb"></button>
+                    </div>
+
+                    <div class="opcio">
+                        <button id="opcio2" class="opciogomb"></button>
+                    </div>
+
+                    <div class="opcio">
+                        <button id="opcio3" class="opciogomb"></button>
+                    </div>
+
+                    <div class="opcio">
+                        <button id="opcio4" class="opciogomb"></button>
+                    </div>
+
+                </div>
+                <div id="btnKontener">
+                    <button id="next">Következő</button>
+                    <button id="osszesit" class="hidden">Kiértékel</button>
+                </div>
+            </div>
+            <div id="eredmeny" class="eredmenyKontener hidden">
+                <div id="valaszok" class="eredmenyek">
+                    <h4>Válaszok</h4>      
+                </div>
+                <div id="jovalaszok" class="eredmenyek">
+                    <h4>Megoldás</h4>
+                </div>
+                <div id="pontok" class="eredmenyek">
+                    <h4>Elért pontok</h4>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
